@@ -1,6 +1,7 @@
 :root {
     --defaultGray: #EFF0F3;
     --black: #2B2C34;
+    --blue: #6246EA;
 }
 
 *, ::before, ::after {
@@ -17,4 +18,10 @@ html {
 a {
     text-decoration: none;
     color: var(--black);
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
 }

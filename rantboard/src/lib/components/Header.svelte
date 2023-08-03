@@ -1,11 +1,18 @@
+<script>
+    import Button from "./Button.svelte";
+</script>
+
 <nav>
     <div>
-        <img src="/images/logo.png" alt="Rantboard Logo" class="logo"/>
+        <a href="/" class="logo">
+            <img src="/images/logo.png" alt="Rantboard Logo" height="36px"/>
+        </a>        
     </div>
     <div class="pages">
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
+        <Button>Sign Up/Login</Button>
     </div>
 </nav>
 
@@ -19,13 +26,13 @@
         grid-template-columns: 60% 40%;
         grid-template-rows: 100%; 
         color: var(--black);
+        box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
     }
 
     .pages {
         display: flex;
         align-items: center;
         gap: 50px;
-        border: 1px solid black;
         width: 100%;
         height: 100%;
     }
@@ -35,7 +42,6 @@
     }
 
     .logo {
-        height: 36px; 
         align-self: center;
         padding-left: 95px;
     }
