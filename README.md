@@ -15,3 +15,21 @@ This site is inspired by the following:
 **Page structure**
 - Home
 Navbar: Home, About, Contact
+
+## Installation
+
+```bash
+$ yarn 
+```
+
+## Running the app
+
+```bash
+$ yarn dev
+```
+
+## Build the app for production
+
+```bash
+$ yarn build
+```
