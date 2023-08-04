@@ -26,7 +26,6 @@
         grid-template-columns: 60% 40%;
         grid-template-rows: 100%; 
         color: var(--black);
-        box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
     }
 
     .pages {
