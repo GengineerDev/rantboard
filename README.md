@@ -10,6 +10,8 @@ This site is inspired by the following:
 - Can post title, message, and change card color
 - Can put name or anonymous
 - Can put picture if they want
+- Can moderate post
+- Can have user management
 - Optional: Put ASMR (relaxing) sound
 
 **Page structure**
